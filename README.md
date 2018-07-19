@@ -5,7 +5,7 @@ the class notes. Feel free to add your knowledge and create a pull request
 ## Contents 
 
 1. [Lines](#lines)	
-2. [Comments](#Comments)	
+2. [Comments](#comments)	
 3. Blocks and indentation	
 4. Variables	
 5. Expressions and Statements	
@@ -212,7 +212,7 @@ An expression is a combination of values, variables, and operators. A value all 
 
 Syntax: function_name(input arguments)
 E.g.
-```
+```python
 >>> print(“Hello World”)
 ```
 
