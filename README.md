@@ -7,11 +7,11 @@ the class notes. Feel free to add your knowledge and create a pull request
 1. [Lines](#lines)	
 2. [Comments](#comments)	
 3. [Blocks and indentation](#blocks-and-indentation)	
-4. Variables	
-5. Expressions and Statements	
-6. Interactive Mode Vs Script Mode	
-7. Function call	
-8. Variables and Values	
+4. [Variables](#variables)	
+5. [Expressions and Statements](#expressions-and-statements)	
+6. [Interactive Mode Vs Script Mode](#interactive-mode-vs-script-mode)	
+7. [Function call](#function-call)	
+8. [Variables and Values](#variables-and-values)	
     * Number Values	
     * Number Type Conversion	
 9. Basic Operators	
