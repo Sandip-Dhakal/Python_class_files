@@ -134,12 +134,13 @@ the class notes. Feel free to add your knowledge and create a pull request
 
 
 ### Lines
+
 1.	Python does what you want it to do most of the time so that you only have to add
-extra characters some of the time.
+    extra characters some of the time.
 2.	Statement separator is a semicolon, but is only needed when there is more than 
-one statement on a line. And, writing more than one statement on the same line is
-considered bad form.
-3.	Continuation lines -- A backslash as last character of the line makes the following line a continuation of the current line. But, note that an opening "context" (parenthesis, square bracket, or curly bracket) makes the backslash unnecessary.
+    one statement on a line. And, writing more than one statement on the same line is
+    considered bad form.
+3.	Continuation lines -- A backslash as last character of the line makes the following line a continuation     of the current line. But, note that an opening "context" (parenthesis, square bracket, or curly bracket)    makes the backslash unnecessary.
 
 <!-- Comments
 Everything after "#" on a line is ignored. No block comments, but doc strings are a
