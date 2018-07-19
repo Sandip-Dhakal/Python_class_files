@@ -4,7 +4,7 @@ the class notes. Feel free to add your knowledge and create a pull request
 
 ## Contents 
 
-1. Lines	
+1. [Lines](#lines)	
 2. Comments	
 3. Blocks and indentation	
 4. Variables	
@@ -131,3 +131,104 @@ the class notes. Feel free to add your knowledge and create a pull request
     * The Threading Module	
     * Creating Thread Using Threading Module	
     * Synchronizing Threads	
+
+
+Lines
+1.	Python does what you want it to do most of the time so that you only have to add
+extra characters some of the time.
+2.	Statement separator is a semicolon, but is only needed when there is more than 
+one statement on a line. And, writing more than one statement on the same line is
+considered bad form.
+3.	Continuation lines -- A backslash as last character of the line makes the following line a continuation of the current line. But, note that an opening "context" (parenthesis, square bracket, or curly bracket) makes the backslash unnecessary.
+
+<!-- Comments
+Everything after "#" on a line is ignored. No block comments, but doc strings are a
+comment in quotes at the beginning of a module, class, method or function. Also, editors
+with support for Python often provide the ability to comment out selected blocks of code,
+usually with "##".
+
+Names and tokens
+● Allowed characters: az – AZ 09 underscore, and must begin with a letter or underscore.
+● Names and identifiers are case sensitive.
+● Identifiers can be of unlimited length.
+● Special names, customizing, etc. Usually begin and end in double underscores.
+● Special name classes Single and double underscores.
+○ Single leading single underscore Suggests a "private" method or variable name. Not imported by "from module import *".
+○ Single trailing underscore Use it to avoid conflicts with Python keywords.
+○ Double leading underscores Used in a class definition to cause name mangling (weak hiding). But, not often used.
+● Naming conventions Not rigid, but:
+○ Modules and packages all lower case.
+○ Globals and constants Upper case.
+○ Classes Bumpy caps with initial upper.
+○ Methods and functions All lower case with words separated by underscores.
+○ Local variables Lower case (with underscore between words) or bumpy caps with initial lower or your choice.
+○ Good advice Follow the conventions used in the code on which you are working.
+● Names/variables in Python do not have a type. Values have types.
+
+
+Blocks and indentation
+Python represents block structure and nested block structure with indentation, not with
+begin and end brackets.
+The empty block Use the pass noop statement.
+Benefits of the use of indentation to indicate structure:
+● Reduces the need for a coding standard. Only need to specify that indentation is 4 spaces and no hard tabs.
+● Reduces inconsistency. Code from different sources follow the same indentation style. It has to.
+● Reduces work. Only need to get the indentation correct, not both indentation and brackets.
+● Reduces clutter. Eliminates all the curly brackets.
+● If it looks correct, it is correct. Indentation cannot fool the reader.
+
+Variables 
+1.	Variables are memory allocated in RAM to store data/value;
+2.	Variable names are usually meaningful — they document what the variable is used for.
+3.	Variable names can be as long as you like.
+    a.	They can contain both letters and numbers but they can’t begin with a number.
+    b.	It is legal to use uppercase letters, but it is conventional to use only lowercase for variables names, Eg, myNameIs, myFirstVariable
+    c.	The underscore character, _, can appear in a name. It is often used in names with multiple words, Eg. your_name or airspeed_of_unladen_swallow.	
+4.	Variable names cannot be reserved words
+False 	class 	finally 	is 	return
+None 	continue 	for 	lambda 	try
+True 	def 	from 	nonlocal 	while
+and 	del	global 	not 	with
+as 	elif 	if 	or 	yield
+assert 	else 	import 	pass
+break 	except 	in 	raise  
+
+Expressions and Statements
+An expression is a combination of values, variables, and operators. A value all by
+itself is considered an expression, and so is a variable, so the following are all legal
+expressions:
+>>> 42
+42
+A statement is a unit of code that performs certain task.
+>>> n = 17
+>>> print(n)
+The first line is an assignment statement that gives a value to n. The second line is a
+print statement that displays the value of n.
+
+Interactive Mode Vs Script Mode
+•	Writing in directly on python shell is interactive mode.
+•	Simple way to use Interactive Mode is by running python in command prompt. (cmd)
+•	We directly interact with python interpreter
+>>> a = 15
+>>> print(a)
+
+•	Save code in a file called a script. 
+•	Python scripts have names that end with .py i.e. file extension.
+•	Run the script file using “python file.py”.
+
+
+Function call
+•	Function is like machine. It takes certain input variables and gives certain output.
+•	It is common to say that a function “takes” an argument and “returns” a result. The result is also called the return value.
+•	We can identify using () parenthesis.
+
+Syntax: function_name(input arguments)
+E.g.
+>>> print(“Hello World”)
+
+Variables and Values
+Number Values
+	Python supports different numerical types:
+•	int (signed integers) − They are often called just integers or ints. They are positive or negative whole numbers with no decimal point. Integers in Python 3 are of unlimited size. Python 2 has two integer types - int and long. There is no 'long integer' in Python 3 anymore.
+•	float (floating point real values) − Also called floats, they represent real numbers and are written with a decimal point dividing the integer and the fractional parts. Floats may also be in scientific notation, with E or e indicating the power of 10 (2.5e2 = 2.5 x 102 = 250).
+•	complex (complex numbers) − are of the form a + bJ, where a and b are floats and J (or j) represents the square root of -1 (which is an imaginary number). The real part of the number is a, and the imaginary part is b. Complex numbers are not used much in Python programming. -->
