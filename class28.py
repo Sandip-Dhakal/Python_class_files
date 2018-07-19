@@ -1,4 +1,5 @@
 #this is module for regular expression and its implementation in python
+#regex is written in r''
 import re
 
 line = "Cats are smarter than dogs"
