@@ -133,7 +133,7 @@ the class notes. Feel free to add your knowledge and create a pull request
     * Synchronizing Threads	
 
 
-Lines
+### Lines
 1.	Python does what you want it to do most of the time so that you only have to add
 extra characters some of the time.
 2.	Statement separator is a semicolon, but is only needed when there is more than 
