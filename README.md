@@ -72,65 +72,62 @@ the class notes. Feel free to add your knowledge and create a pull request
     * Delete Dictionary Elements	
     * Properties of Dictionary Keys	
     * Built-in Dictionary Functions and Methods
-
-
-Functions	65
-Pass by Reference vs Value	67
-Function Arguments	68
-Required Arguments	69
-Keyword Arguments	69
-Default Arguments	70
-Variable-length Arguments	71
-Anonymous Functions	72
-return Statement	73
-Scope of Variables	74
-Global vs. Local variables	75
-Things to know about functions	76
-Iterators and generators	77
-Modules	78
-The import Statement	78
-Executing Modules as Scripts	80
-Locating Modules	81
-The PYTHONPATH Variable	81
-Namespaces and Scoping	81
-The dir( ) Function	83
-The globals() and locals() Functions	83
-The reload() Function	84
-Packages in Python	84
-Object Oriented	86
-Overview of OOP Terminology	86
-Creating Classes	87
-Creating Instance Objects	88
-Accessing Attributes	88
-Built-In Class Attributes	90
-Destroying Objects (Garbage Collection)	92
-Class Inheritance	93
-Overriding Methods	96
-Base Overloading Methods	96
-Overloading Operators	97
-Data Hiding	98
-Exceptions Handling	99
-Standard Exceptions	99
-Assertions in Python	103
-What is Exception?	104
-The except Clause with No Exceptions	106
-The except Clause with Multiple Exceptions	107
-The try-finally Clause	107
-Argument of an Exception	108
-Raising an Exception	110
-User-Defined Exceptions	111
-Files I/O	112
-Opening and Closing Files	113
-The file Object Attributes	116
-Reading and Writing Files	118
-Reading and Writing using With Statement	119
-File Positions	120
-Renaming and Deleting Files	121
-Directories in Python	123
-File and Directory Related Methods	125
-File Methods	125
-Multithreaded Programming	127
-The Threading Module	128
-Creating Thread Using Threading Module	128
-Synchronizing Threads	
-Multithreaded Priority Queue	
+17. Functions	
+    * Pass by Reference vs Value	
+    * Function Arguments	
+    * Required Arguments	
+    * Keyword Arguments	
+    * Default Arguments	
+    * Variable-length Arguments	
+    * Anonymous Functions	
+    * return Statement	
+    * Scope of Variables	
+    * Global vs. Local variables	
+    * Things to know about functions	
+18. Iterators and generators	
+19. Modules	
+    * The import Statement	
+    * Executing Modules as Scripts	
+    * Locating Modules	
+    * The PYTHONPATH Variable	
+    * Namespaces and Scoping	
+    * The dir( ) Function	
+    * The globals() and locals() Functions	
+    * The reload() Function	
+    * Packages in Python	
+20. Object Oriented	
+    * Overview of OOP Terminology	
+    * Creating Classes	
+    * Creating Instance Objects	
+    * Accessing Attributes	
+    * Built-In Class Attributes	
+    * Destroying Objects (Garbage Collection)	
+    * Class Inheritance	
+    * Overriding Methods	
+    * Base Overloading Methods	
+    * Overloading Operators	
+    * Data Hiding	
+21. Exceptions Handling	
+    * Standard Exceptions	
+    * Assertions in Python	
+    * What is Exception?	
+    * The except Clause with No Exceptions	
+    * The except Clause with Multiple Exceptions	
+    * The try-finally Clause	
+    * Argument of an Exception	
+    * Raising an Exception	
+    * User-Defined Exceptions	
+22. Files I/O	
+    * Opening and Closing Files	    * 
+    * The file Object Attributes	
+    * Reading and Writing Files	
+    * Reading and Writing using With Statement	
+    * File Positions	
+    * Renaming and Deleting Files	
+    * Directories in Python	
+    * File and Directory Related Methods	
+    * File Methods	
+23. Multithreaded Programming	
+    * The Threading Module	
+    * Creating Thread Using Threading Module	
+    * Synchronizing Threads	
