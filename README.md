@@ -6,7 +6,7 @@ the class notes. Feel free to add your knowledge and create a pull request
 
 1. [Lines](#lines)	
 2. [Comments](#comments)	
-3. [Blocks and indentation](#blocks_and_indentation)	
+3. [Blocks and indentation](#blocks-and-indentation)	
 4. Variables	
 5. Expressions and Statements	
 6. Interactive Mode Vs Script Mode	
