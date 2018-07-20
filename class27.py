@@ -2,35 +2,56 @@
 from threading import Thread
 import time
 
-
 # class MyThread(Thread):
-#     def __init__(self, name, id):
+#     def __init__(self):
 #         super(MyThread, self).__init__()
-#         self.name = name
-#         self.id = id
 
 #     def run(self):
-#         # print(self.name,"is running")
-#         time.sleep(1)
-#         print(self.id, ':', self.name, ":", time.ctime(time.time()))
+#         while(True):
+#             print('I am in a separate Thread')
+#             time.sleep(2)
 
-    # def start(self):
-    #     # print(self.name,"is started")
-    #     super(MyThread, self).start()
+#     def start(self):
+#         print('This is start of thread')
+#         super(MyThread, self).start()
+
+# thread1 = MyThread()
+# thread1.start()
+
+# while(True):
+#     print('I am main thread')
+#     time.sleep(1)
+
+# print('I am outside inifite loop')
+
+class MyThread(Thread):
+    def __init__(self, name, id):
+        super(MyThread, self).__init__()
+        self.name = name
+        self.id = id
+
+    def run(self):
+        # print(self.name,"is running")
+        time.sleep(1)
+        print(self.id, ':', self.name, ":", time.ctime(time.time()))
+
+    def start(self):
+        # print(self.name,"is started")
+        super(MyThread, self).start()
 
 
-# # Thread implementation
-# thread1 = MyThread('Thread1', 1)
-# thread2 = MyThread('Thread2', 2)
-# thread3 = MyThread('Thread3', 3)
+# Thread implementation
+thread1 = MyThread('Thread1', 1)
+thread2 = MyThread('Thread2', 2)
+thread3 = MyThread('Thread3', 3)
 
 ##join() method waits for all threads to be completed which are added to thread pool by join method
-# thread1.start()
-# # thread1.join()
-# thread2.start()
-# # thread2.join()
-# thread3.start()
-# # thread3.join()
+thread1.start()
+# thread1.join()
+thread2.start()
+# thread2.join()
+thread3.start()
+# thread3.join()
 
 # multiple threads running together
 # for x in range(100):

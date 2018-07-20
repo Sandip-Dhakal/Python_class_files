@@ -111,8 +111,8 @@ def writeP2file(p1,p2):
 
 import pickle
 
-# dogs_dict = { 'Ozzy': 3, 'Filou': 8, 'Luna': 5,
-#  'Skippy': 10, 'Barco': 12, 'Balou': 9, 'Laika': 16 }
+dogs_dict = { 'Ozzy': 3, 'Filou': 8, 'Luna': 5,
+ 'Skippy': 10, 'Barco': 12, 'Balou': 9, 'Laika': 16 }
 
 # filename = 'dogs.txt'
 # outfile = open(filename,'wb')
@@ -126,6 +126,7 @@ import pickle
 # print(new_dict==dogs_dict)
 # print(type(new_dict))
 
+
 #Storing object in file using pickel
 # with open('point.txt','wb') as file:
 #     p1 = Point(2,3)
@@ -134,3 +135,14 @@ import pickle
 # with open('point.txt','rb') as file:
 #     p2 = pickle.load(file)
 #     print(p2)
+
+#Storing array of objects in file
+# points_array = (Point(2,3), Point(5,4))
+# with open('point_array.txt','wb') as file:
+#     pickle.dump(points_array,file)
+
+# with open('point_array.txt','rb') as file:
+#     p = pickle.load(file)
+
+# distance = p[0].distance(p[1])
+# print("The distance is %.2f"%(distance))
