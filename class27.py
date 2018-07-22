@@ -24,53 +24,59 @@ import time
 
 # print('I am outside inifite loop')
 
-class MyThread(Thread):
-    def __init__(self, name, id):
-        super(MyThread, self).__init__()
-        self.name = name
-        self.id = id
+# class MyThread(Thread):
+#     def __init__(self, name, id):
+#         super(MyThread, self).__init__()
+#         self.name = name
+#         self.id = id
 
-    def run(self):
-        # print(self.name,"is running")
-        time.sleep(1)
-        print(self.id, ':', self.name, ":", time.ctime(time.time()))
+#     def run(self):
+#         # print(self.name,"is running")
+#         time.sleep(2)
+#         print(self.id, ':', self.name, ":", time.ctime(time.time()))
 
-    def start(self):
-        # print(self.name,"is started")
-        super(MyThread, self).start()
+#     def start(self):
+#         # print(self.name,"is started")
+#         super(MyThread, self).start()
 
 
-# Thread implementation
-thread1 = MyThread('Thread1', 1)
-thread2 = MyThread('Thread2', 2)
-thread3 = MyThread('Thread3', 3)
+# # Thread implementation
+# thread1 = MyThread('Thread1', 1)
+# thread2 = MyThread('Thread2', 2)
+# thread3 = MyThread('Thread3', 3)
 
-##join() method waits for all threads to be completed which are added to thread pool by join method
-thread1.start()
+'''
+join() method waits for all threads to be completed which are added to 
+thread pool by join method, then only gives output. Join also blocks other thread 
+to run unless that thread is completed.
+'''
+
+# thread1.start()
 # thread1.join()
-thread2.start()
+# thread2.start()
 # thread2.join()
-thread3.start()
+# thread3.start()
 # thread3.join()
 
 # multiple threads running together
 # for x in range(100):
 #     name = "Thread"+str(x)
-#     thread  = myThread(name, x)
+#     thread  = MyThread(name, x)
 #     thread.start()
 
-import threading
 
+#Thread Synchronization using Lock class og threading
+from threading import Lock
 class MyThread (Thread):
     
-    threadLock = threading.Lock()
+    threadLock = Lock()
     
     def __init__(self, threadID, name, counter):
         Thread.__init__(self)
         self.threadID = threadID
         self.name = name
         self.counter = counter
-
+        
     def run(self):
         print ("Starting " + self.name)
         # Get lock to synchronize threads
@@ -95,12 +101,12 @@ thread2 = MyThread(2, "Thread-2", 2)
 thread1.start()
 thread2.start()
 
-# Add threads to thread list
-threads.append(thread1)
-threads.append(thread2)
+# # Add threads to thread list
+# threads.append(thread1)
+# threads.append(thread2)
 
-# Wait for all threads to complete
-for t in threads:
-   t.join()
-print ("Exiting Main Thread")
+# # Wait for all threads to complete
+# for t in threads:
+#    t.join()
+# print ("Exiting Main Thread")
 
