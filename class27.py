@@ -88,7 +88,7 @@ class MyThread (Thread):
 def print_time(threadName, delay, counter):
     while counter:
         time.sleep(delay)
-        print ("%s: %s" % (threadName, time.ctime(time.time())))
+        print (f"{threadName} : {time.ctime(time.time())}")
         counter -= 1
 
 threads = []

@@ -34,5 +34,5 @@ def jumble(x):
             print(result)
             break
 
-txt = "I am from Pokhara where my father was born"
+txt = str(input("Enter a string: "))
 jumble(txt)
