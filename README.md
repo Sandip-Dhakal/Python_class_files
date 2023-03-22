@@ -12,7 +12,7 @@ the class notes. Feel free to add your knowledge and create a pull request
 6. [Interactive Mode Vs Script Mode](#interactive-mode-vs-script-mode)	
 7. [Function call](#function-call)	
 8. [Variables and Values](#variables-and-values)	
-    * Number Values	
+    * [Number Values](#number-values)	
     * Number Type Conversion	
 9. Basic Operators	
 10. Types of Operator	
